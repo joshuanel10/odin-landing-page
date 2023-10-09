@@ -26,6 +26,7 @@ ul {
     gap: 100px;
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 
 .welcome{
