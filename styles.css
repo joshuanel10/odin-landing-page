@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: #eee;
     font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .header {
@@ -88,3 +89,37 @@ p {
 .placeholder p {
     margin: 90px 0 0 0;
 }
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900; 
+    padding-bottom: 32px;   
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.Information {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    background-color: white;
+}
+
+.info {
+    max-width: 200px;
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
