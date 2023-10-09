@@ -21,3 +21,69 @@ ul {
     padding: 0;
     gap: 16px;
 }
+
+.signup {
+    gap: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.welcome{
+    padding-bottom: 100px;
+    width: 470px;
+}
+
+div {
+    display: block;
+}
+
+.welcomeHeader {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.welcomeParagraph {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.welcomeButton {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 0;
+    width: 100px;
+    height: 30px;
+}
+
+.placeholder {
+    text-align: center;
+    color: #F9FAF8;
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+}
+
+.placeholder p {
+    margin: 90px 0 0 0;
+}
