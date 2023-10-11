@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     background: #eee;
@@ -157,3 +162,43 @@ p {
     margin-inline-end: 0px;
 } 
 
+.callToAction {
+    display: flex;
+    justify-content: center;
+    padding: 5em 13em;
+    align-items: center;
+}
+
+.callContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.callContainer button {
+    border: 2px solid #FFF;
+
+}
+
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
