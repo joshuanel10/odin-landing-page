@@ -14,7 +14,7 @@ body {
     background: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 24px 16px;
     font-size: 24px;
     color: #F9FAF8;
 }
